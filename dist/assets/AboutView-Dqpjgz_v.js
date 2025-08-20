@@ -1,1 +1,0 @@
-import{_ as t,c as r,a as o,b as s,o as a}from"./index-kvYcYXj6.js";const c={},i={id:"about"};function n(d,e){return a(),r("div",i,e[0]||(e[0]=[o("h1",null,[s(" This exercise is adapted from the free Vue School video lesson in the "),o("a",{href:"https://router.vuejs.org/guide/"},"vue-router guide")],-1)]))}const f=t(c,[["render",n]]);export{f as default};

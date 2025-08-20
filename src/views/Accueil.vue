@@ -299,7 +299,7 @@ const studies: Study[] = [
 ]
 
 /* Modal CV */
-const cvSrc = "/docs/CV_Enes_SEN.pdf"
+const cvSrc = "docs/CV_Enes_SEN.pdf"
 const showCV = ref(false)
 function openModalCV() { showCV.value = true }
 function closeModalCV() { showCV.value = false }
