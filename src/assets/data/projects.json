@@ -1,0 +1,10 @@
+[
+  { "alt": "JeuEchec", "src": "images/AccueilProjects/echec.jpg", "texte": "Jeu d'Echec" },
+  { "alt": "Fou2Foot", "src": "images/AccueilProjects/Fou2foot.jpg", "texte": "Fou 2 Foot" },
+  { "alt": "ShopEZ", "src": "images/AccueilProjects/ShopEZ.jpg", "texte": "ShopEZ" },
+  { "alt": "NewZ", "src": "images/AccueilProjects/NewZ.jpg", "texte": "NewZ" },
+  { "alt": "DeplacementDoux", "src": "images/AccueilProjects/DeplacementsDoux.jpg", "texte": "Déplacements Doux" },
+  { "alt": "Fou2Foot-And", "src": "images/AccueilProjects/Fou2FootAnd.jpg", "texte": "Fou 2 Foot(Android)" },
+  { "alt": "Air-Stream", "src": "images/AccueilProjects/Air-Stream.jpg", "texte": "Air-Stream" }
+
+]

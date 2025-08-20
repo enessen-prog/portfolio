@@ -1,0 +1,238 @@
+[
+  {
+    "id": "JeuEchec",
+    "titre": "Jeu d'Echec",
+    "description": "Un jeu d'échec crée avec des structures de données",
+    "technos": [
+      { "name": "Python", "logo": "/logos/python.svg" }
+    ],
+    "fonctionnalites": [
+      "Création d’un jeu d’échecs en utilisant les structures de données : PILE, FILE, ARBRE, LISTE",
+      "Pile pour gérer la liste des coups joués",
+      "File pour la gestion des tours (blanc / noir)",
+      "Liste pour représenter l’échiquier",
+      "Arbre pour un algorithme de recommandation de coups (détection des menaces adverses et pièces susceptibles de nous manger)"
+    ],
+    "images": [
+      "/images/projets/JeuEchec/1.jpg",
+      "/images/projets/JeuEchec/2.jpg",
+      "/images/projets/JeuEchec/3.jpg"
+    ],
+    "competences": [
+      "Réaliser",
+      "Optimiser"
+    ],
+    "image": "/images/AccueilProjects/echec.jpg"
+  },
+ {
+  "id": "Fou2Foot",
+  "titre": "Fou 2 Foot",
+  "description": "Site de paris sportif fictif",
+  "technos": [
+    { "name": "PHP", "logo": "/logos/php.svg" },
+    { "name": "MySQL", "logo": "/logos/mysql.svg" },
+    { "name": "HTML", "logo": "/logos/html.svg" },
+    { "name": "CSS", "logo": "/logos/css.svg" },
+    { "name": "JavaScript", "logo": "/logos/javascript.svg" }
+  ],
+  "fonctionnalites": [
+    "Placement de paris sportifs",
+    "Pioche miracle pour recevoir des gains chaque jour",
+    "Création de tournois et invitation de joueurs",
+    "Consultation des matchs",
+    "Classement des championnats",
+    "Top buteurs",
+    "Espace profil avec boutique intégrée"
+  ],
+  "images": [
+    "/images/projets/Fou2Foot/Image1.png",
+    "/images/projets/Fou2Foot/Image2.png",
+    "/images/projets/Fou2Foot/Image9.png",
+    "/images/projets/Fou2Foot/Image10.png",
+    "/images/projets/Fou2Foot/Image11.png",
+    "/images/projets/Fou2Foot/Image12.png",
+    "/images/projets/Fou2Foot/Image13.png",
+    "/images/projets/Fou2Foot/Image14.png",
+    "/images/projets/Fou2Foot/Image15.png",
+    "/images/projets/Fou2Foot/Image16.png",
+    "/images/projets/Fou2Foot/Image17.png",
+    "/images/projets/Fou2Foot/Image18.png",
+    "/images/projets/Fou2Foot/Image19.png",
+    "/images/projets/Fou2Foot/Image20.png"
+  ],
+  "competences": [
+    "Réaliser",
+    "Optimiser",
+    "Conduire",
+    "Collaborer"
+  ],
+  "image": "/images/AccueilProjects/Fou2foot.jpg"
+}
+,
+  {
+  "id": "Fou2Foot-And",
+  "titre": "Fou 2 Foot (Android)",
+  "description": "Application mobile compagnon de Fou 2 Foot, offrant une expérience immersive pour suivre l’actualité et les résultats du football.",
+  "technos": [
+    { "name": "Kotlin", "logo": "/logos/kotlin.svg" },
+    { "name": "Firebase", "logo": "/logos/firebase.svg" },
+    { "name": "Google Maps API", "logo": "/logos/googlemaps.svg" }
+  ],
+  "fonctionnalites": [
+    "Authentification avec Firebase",
+    "Localisation des stades via Google Maps",
+    "Affichage des scores en temps réel",
+    "Classements des championnats",
+    "Affichage des meilleurs buteurs",
+    "Notifications push pour les matchs",
+    "Mode sombre et navigation fluide"
+  ],
+  "images": [
+    "/images/projets/Fou2FootAnd/image1.png",
+    "/images/projets/Fou2FootAnd/image2.png",
+    "/images/projets/Fou2FootAnd/image3.png",
+    "/images/projets/Fou2FootAnd/image4.png"
+  ],
+  "competences": [
+    "Collaborer",
+    "Conduire",
+    "Réaliser",
+    "Optimiser"
+  ],
+  "image": "/images/AccueilProjects/Fou2FootAnd.jpg"
+}
+,
+  {
+  "id": "NewZ",
+  "titre": "NewZ",
+  "description": "Blog DBZ avec gestion des articles et catégories.",
+  "technos": [
+    { "name": "PHP", "logo": "/logos/php.svg" },
+    { "name": "MySQL", "logo": "/logos/mysql.svg" },
+    { "name": "HTML", "logo": "/logos/html.svg" },
+    { "name": "CSS", "logo": "/logos/css.svg" }
+  ],
+  "fonctionnalites": [
+    "Inscription et connexion des utilisateurs",
+    "Création d’articles personnalisés",
+    "Commenter les articles",
+    "Création et gestion des catégories d’articles",
+    "Espace administrateur avec gestion CRUD des contenus"
+  ],
+  "images": [
+    "/images/projets/newz/image1.png",
+    "/images/projets/newz/image2.png",
+    "/images/projets/newz/image3.png",
+    "/images/projets/newz/image4.png",
+    "/images/projets/newz/image5.png"
+  ],
+  "competences": [
+    "Collaborer",
+    "Optimiser",
+    "Réaliser"
+  ],
+  "image": "/images/AccueilProjects/NewZ.jpg"
+}
+,
+{
+  "id": "ShopEZ",
+  "titre": "ShopEZ",
+  "description": "Plateforme e-commerce moderne permettant de gérer des achats en ligne avec une expérience utilisateur optimisée.",
+  "technos": [
+    { "name": "Symfony", "logo": "/logos/symfony.svg" },
+    { "name": "PHP", "logo": "/logos/php.svg" },
+    { "name": "JavaScript", "logo": "/logos/javascript.svg" },
+    { "name": "IA Gemini", "logo": "/logos/ia.svg" },
+    { "name": "Chart.js", "logo": "/logos/chartjs.svg" },
+    { "name": "MySQL", "logo": "/logos/mysql.svg" }
+  ],
+  "fonctionnalites": [
+    "Inscription et connexion sécurisées",
+    "Gestion complète du panier et du choix des produits",
+    "Création d’un espace administrateur pour la gestion des produits, magasin, articles",
+    "Mise en place de filtres avancés pour la recherche de produits",
+    "Optimisation des performances côté serveur et côté client",
+    "Ajout d'amis et partage de panier",
+    "Intégration de l’IA Gemini pour l’assistance aux choix d’achat",
+    "Visualisation des données clients et ventes via Chart.js"
+  ],
+  "images": [
+    "/images/projets/ShopEZ/Shopez1.png",
+    "/images/projets/ShopEZ/Shopez2.png",
+    "/images/projets/ShopEZ/Shopez3.png",
+    "/images/projets/ShopEZ/Shopez4.png",
+    "/images/projets/ShopEZ/Shopez5.png",
+    "/images/projets/ShopEZ/Shopez6.png",
+    "/images/projets/ShopEZ/Shopez7.png",
+    "/images/projets/ShopEZ/Shopez8.png",
+    "/images/projets/ShopEZ/Shopez9.png",
+    "/images/projets/ShopEZ/Shopez10.png",
+    "/images/projets/ShopEZ/Shopez11.png"
+  ],
+  "competences": [
+    "Réaliser",
+    "Optimiser",
+    "Conduire",
+    "Collaborer"
+  ],
+  "image": "/images/AccueilProjects/ShopEZ.jpg"
+}
+,
+  {
+  "id": "Air-Stream",
+  "titre": "Air-Stream",
+  "description": "Application Java de modélisation et d’analyse des vols aériens avec algorithmes de coloration et visualisations avancées.",
+  "technos": [
+    { "name": "Java", "logo": "/logos/java.svg" }
+  ],
+  "fonctionnalites": [
+    "Interface IHM",
+    "Création d’algorithme de coloration de vol",
+    "Visualisation des aéroports sur une carte en récupérant les données d’un fichier CSV",
+    "Création de graphes en Java",
+    "Application d’algorithmes pour compter les nœuds, arêtes et intersections de vol",
+    "Calcul du nombre de couleurs k-max"
+  ],
+  "images": [
+    "/images/projets/Air-stream/Air-stream1.png",
+    "/images/projets/Air-stream/Air-stream2.png",
+    "/images/projets/Air-stream/Air-stream3.png",
+    "/images/projets/Air-stream/Air-stream4.png",
+    "/images/projets/Air-stream/Air-stream5.png",
+    "/images/projets/Air-stream/Air-stream6.png",
+    "/images/projets/Air-stream/Air-stream7.png"
+  ],
+  "competences": [
+    "Réaliser",
+    "Optimiser",
+    "Collaborer"
+  ],
+  "image": "/images/AccueilProjects/Air-Stream.jpg"
+}
+, 
+  {
+  "id": "DeplacementDoux",
+  "titre": "Déplacement Doux",
+  "description": "Création d’un site visuel interactif pour promouvoir les moyens de transport doux et durables.",
+  "technos": [
+    { "name": "HTML", "logo": "/logos/html.svg" },
+    { "name": "CSS", "logo": "/logos/css.svg" }
+  ],
+  "fonctionnalites": [
+    "Création d’un site visuel sur le déplacement doux"
+  ],
+  "images": [
+    "/images/projets/DeplacementsDoux/DeplacementDoux1.png",
+    "/images/projets/DeplacementsDoux/DeplacementDoux2.png",
+    "/images/projets/DeplacementsDoux/DeplacementDou3.png"
+  ],
+  "competences": [
+    "Collaborer",
+    "Conduire",
+    "Réaliser",
+    "Optimiser"
+  ],
+  "image": "/images/AccueilProjects/DeplacementDoux.jpg"
+}
+
+]

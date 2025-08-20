@@ -1,0 +1,8 @@
+[
+  { "name": "Réaliser",    "desc": "Développer et intégrer des solutions.",                 "level": 85 },
+  { "name": "Optimiser",   "desc": "Proposer des applis performantes et stables.",         "level": 70 },
+  { "name": "Administrer", "desc": "Installer, configurer, maintenir systèmes & réseaux.", "level": 60 },
+  { "name": "Gérer",       "desc": "Exploiter les données pour le pilotage.",              "level": 90 },
+  { "name": "Conduire",    "desc": "Piloter un projet, organiser une équipe.",             "level": 80 },
+  { "name": "Collaborer",  "desc": "Travailler efficacement en équipe.",                   "level": 90 }
+]
