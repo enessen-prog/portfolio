@@ -159,7 +159,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'MonSuperFont', sans-serif;
-  background: url('images/mur1.jpg') no-repeat center center fixed;
+  background: url('../../public/images/mur1.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
