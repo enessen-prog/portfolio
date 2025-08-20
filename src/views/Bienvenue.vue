@@ -26,28 +26,25 @@ import { onMounted } from 'vue'
 
 
 onMounted(() => {
-  var petalPlayers = []
-  var petalCount = 40 // Nombre total de pétales
-  var petalContainer = document.getElementById("petals-container")
+  const petalContainer = document.getElementById("petals-container") as HTMLElement | null
+  if (!petalContainer) return  // sécurité
 
-  for (var i = 0; i < petalCount; i++) {
-    var petal = document.createElement("div")
+  const petalPlayers: Animation[] = []
+  const petalCount = 40
+
+  for (let i = 0; i < petalCount; i++) {
+    const petal = document.createElement("div")
     petal.classList.add("petal")
     petalContainer.appendChild(petal)
   }
 
   function animatePetals() {
-    var petals = document.querySelectorAll(".petal")
-
-    if (!petals[0]?.animate) {
-      petalContainer.prepend("Uh oh, your browser doesn't support Web Animations API.")
-      return false
-    }
+    const petals = document.querySelectorAll(".petal")
 
     for (var i = 0, len = petals.length; i < len; ++i) {
       var petal = petals[i]
       var petalNumber = Math.floor(Math.random() * 7) + 1
-      petal.innerHTML = `<div class="rotate"><img src="/images/petale${petalNumber}.png" class="askew"></div>`
+      petal.innerHTML = `<div class="rotate"><img src="images/petale${petalNumber}.png" class="askew"></div>`
 
       var scale = Math.random() * 1.5 + 0.4
 

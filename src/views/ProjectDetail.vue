@@ -36,7 +36,7 @@
         </div>
         <ul class="tech-chips">
           <li v-for="(tech, idx) in projet.technos" :key="idx" class="chip">
-            <img :src="tech.logo" :alt="tech.nom" class="tech-icon large" /> {{ tech.nom }}
+            <img :src="tech.logo" :alt="tech.name" class="tech-icon large" /> {{ tech.name }}
           </li>
         </ul>
 
