@@ -6,9 +6,10 @@ const router = useRouter()
 
 // Sections internes (pour le scroll fluide)
 const sections = [
-  { id: "apropos", label: "À propos" },
-  { id: "skills", label: "Compétences" },
-  { id: "tech-skills", label: "Technologies" }
+  { id: "competences", label: "Compétences" },
+  { id: "experiences", label: "Expérience" },
+  { id: "technologies", label: "Technologies" },
+  { id: "contact", label: "Contact" }
 ]
 
 // Etat section active
