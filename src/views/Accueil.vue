@@ -397,7 +397,7 @@
                     </div>
                     <p class="project-description">
                       <strong>Contexte :</strong> Projet en binôme (1 frontend React + 1 backend Node.js) nécessitant une coordination technique quotidienne sur l'architecture API et les contrats de données.<br/>
-                      <strong>Pratiques collaboratives :</strong> Workflow Git avec branches feature/<nom>, pull requests systématiques avec review obligatoire avant merge, 150+ PR reviewées mutuellement, convention de commits (Conventional Commits), documentation API OpenAPI 3.0 partagée, réunions de synchronisation bi-hebdomadaires pour l'alignement technique.<br/>
+                      <strong>Pratiques collaboratives :</strong> Workflow Git avec branches feature/[nom], pull requests systématiques avec review obligatoire avant merge, 150+ PR reviewées mutuellement, convention de commits (Conventional Commits), documentation API OpenAPI 3.0 partagée, réunions de synchronisation bi-hebdomadaires pour l'alignement technique.<br/>
                       <strong>Outils :</strong> GitHub pour versioning + CI/CD, Slack pour communication temps réel, Notion pour documentation technique partagée, Postman Collections partagées pour tests d'intégration.<br/>
                       <strong>Impact :</strong> 0 conflit de merge majeur sur 12 mois, temps moyen de review &lt;24h, code coverage maintenu à 85% grâce aux reviews croisées, vélocité constante de 15 story points/sprint.
                     </p>
