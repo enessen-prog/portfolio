@@ -9,18 +9,20 @@
         <path class="wave wave-2" fill="url(#gradient2)" fill-opacity="0.08" d="M0,224L48,197.3C96,171,192,117,288,112C384,107,480,149,576,165.3C672,181,768,171,864,154.7C960,139,1056,117,1152,117.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
       </svg>
 
-      <!-- SVG Gradients -->
+      <!-- SVG Gradients - Vibrant Colors -->
       <svg width="0" height="0">
         <defs>
           <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
-            <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#F7DC6F;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+            <stop offset="33%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            <stop offset="66%" style="stop-color:#06B6D4;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
           </linearGradient>
           <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#F7DC6F;stop-opacity:1" />
-            <stop offset="50%" style="stop-color:#FF6B6B;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+            <stop offset="33%" style="stop-color:#EC4899;stop-opacity:1" />
+            <stop offset="66%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
           </linearGradient>
         </defs>
       </svg>
@@ -617,12 +619,15 @@ function toggleCompetence(competence: string) {
    JAPANESE MODERN THEME
    =========================== */
 
-/* Color Palette - Japanese Sunset */
+/* Color Palette - Vibrant Modern */
 #japanese-portfolio {
-  --jp-crimson: #FF6B6B;
-  --jp-teal: #4ECDC4;
-  --jp-gold: #F7DC6F;
+  --jp-crimson: #FF6B9D;
+  --jp-violet: #8B5CF6;
+  --jp-teal: #06B6D4;
+  --jp-gold: #F59E0B;
   --jp-indigo: #667EEA;
+  --jp-orange: #F97316;
+  --jp-rose: #EC4899;
   --jp-dark: #1a1a2e;
   --jp-darker: #0f0f1e;
   --jp-light: #f8f9fa;
@@ -630,10 +635,13 @@ function toggleCompetence(competence: string) {
 }
 
 :root {
-  --jp-crimson: #FF6B6B;
-  --jp-teal: #4ECDC4;
-  --jp-gold: #F7DC6F;
+  --jp-crimson: #FF6B9D;
+  --jp-violet: #8B5CF6;
+  --jp-teal: #06B6D4;
+  --jp-gold: #F59E0B;
   --jp-indigo: #667EEA;
+  --jp-orange: #F97316;
+  --jp-rose: #EC4899;
   --jp-dark: #1a1a2e;
   --jp-darker: #0f0f1e;
   --jp-light: #f8f9fa;
@@ -649,9 +657,22 @@ function toggleCompetence(competence: string) {
 #japanese-portfolio {
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--jp-darker) 0%, var(--jp-dark) 100%);
+  background: linear-gradient(135deg,
+    #1a1a2e 0%,
+    #2d1b4e 25%,
+    #1e3a5f 50%,
+    #2d1b4e 75%,
+    #1a1a2e 100%
+  );
+  background-size: 400% 400%;
+  animation: bg-gradient-shift 20s ease infinite;
   color: var(--jp-light);
   overflow-x: hidden;
+}
+
+@keyframes bg-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 /* ===========================
@@ -736,14 +757,21 @@ function toggleCompetence(competence: string) {
 .hero-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: linear-gradient(135deg, var(--jp-crimson), var(--jp-teal));
+  background: linear-gradient(135deg, var(--jp-rose), var(--jp-violet), var(--jp-teal));
+  background-size: 200% 200%;
+  animation: float 3s ease-in-out infinite, badge-gradient 6s ease infinite;
   color: white;
   border-radius: 50px;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 24px;
-  animation: float 3s ease-in-out infinite;
+  box-shadow: 0 4px 16px rgba(236,72,153,0.4), 0 2px 8px rgba(139,92,246,0.3);
+}
+
+@keyframes badge-gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 @keyframes float {
@@ -760,12 +788,25 @@ function toggleCompetence(competence: string) {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--jp-crimson) 0%, var(--jp-teal) 50%, var(--jp-gold) 100%);
+  background: linear-gradient(135deg,
+    var(--jp-crimson) 0%,
+    var(--jp-violet) 25%,
+    var(--jp-teal) 50%,
+    var(--jp-gold) 75%,
+    var(--jp-rose) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: gradient-shift 8s ease infinite;
+  animation: title-gradient-shift 8s ease infinite;
   background-size: 200% 200%;
+  filter: drop-shadow(0 4px 16px rgba(255,107,157,0.4))
+          drop-shadow(0 4px 16px rgba(139,92,246,0.3));
+}
+
+@keyframes title-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 @keyframes gradient-shift {
@@ -775,7 +816,10 @@ function toggleCompetence(competence: string) {
 
 .hero-subtitle {
   font-size: clamp(18px, 3vw, 24px);
-  color: var(--jp-teal);
+  background: linear-gradient(90deg, var(--jp-teal), var(--jp-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-weight: 600;
   margin-bottom: 24px;
   letter-spacing: 1px;
@@ -812,27 +856,36 @@ function toggleCompetence(competence: string) {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--jp-crimson), var(--jp-indigo));
+  background: linear-gradient(135deg, var(--jp-rose), var(--jp-violet), var(--jp-teal));
+  background-size: 200% 200%;
+  animation: btn-gradient 6s ease infinite;
   color: white;
-  box-shadow: 0 8px 24px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 8px 24px rgba(236,72,153,0.4), 0 4px 12px rgba(139,92,246,0.3);
+}
+
+@keyframes btn-gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(255, 107, 107, 0.5);
+  box-shadow: 0 12px 40px rgba(236,72,153,0.6), 0 6px 20px rgba(139,92,246,0.5);
 }
 
 .btn-secondary {
   background: rgba(255, 255, 255, 0.05);
   color: var(--jp-light);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--jp-teal);
   backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(6,182,212,0.3);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: var(--jp-teal);
+  background: rgba(6,182,212, 0.15);
+  border-color: var(--jp-violet);
   transform: translateY(-3px);
+  box-shadow: 0 0 30px rgba(139,92,246,0.5);
 }
 
 /* ===========================
