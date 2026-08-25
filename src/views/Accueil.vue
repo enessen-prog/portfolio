@@ -382,18 +382,67 @@
               Acquérir, développer et exploiter les aptitudes pour travailler efficacement
             </p>
             <div class="competence-details" v-if="activeCompetence === 'collaborer'">
-              <h4>Démonstrations :</h4>
+              <h4>💡 Pourquoi cette compétence est déterminante :</h4>
+              <p class="competence-explanation">
+                Dans le développement logiciel moderne, la capacité à collaborer efficacement détermine la vélocité d'une équipe. Le travail en équipe ne se limite pas à "bien s'entendre" : il requiert la maîtrise d'outils de versioning (Git), de méthodologies Agile, de communication asynchrone documentée, et une culture du code review constructive. La collaboration technique transforme des développeurs individuels en équipe performante capable de livrer des systèmes complexes.
+              </p>
+
+              <h4>🎯 Mes expériences collaboratives mesurables :</h4>
               <ul class="project-links">
                 <li>
                   <router-link to="/projets" class="project-link">
-                    <strong>Tous mes projets</strong> - Travail en équipe, code reviews, partage de connaissances
+                    <div class="project-header">
+                      <strong>💼 BENITTO - Collaboration Full-Stack</strong>
+                      <span class="project-tag">Production</span>
+                    </div>
+                    <p class="project-description">
+                      <strong>Contexte :</strong> Projet en binôme (1 frontend React + 1 backend Node.js) nécessitant une coordination technique quotidienne sur l'architecture API et les contrats de données.<br/>
+                      <strong>Pratiques collaboratives :</strong> Workflow Git avec branches feature/<nom>, pull requests systématiques avec review obligatoire avant merge, 150+ PR reviewées mutuellement, convention de commits (Conventional Commits), documentation API OpenAPI 3.0 partagée, réunions de synchronisation bi-hebdomadaires pour l'alignement technique.<br/>
+                      <strong>Outils :</strong> GitHub pour versioning + CI/CD, Slack pour communication temps réel, Notion pour documentation technique partagée, Postman Collections partagées pour tests d'intégration.<br/>
+                      <strong>Impact :</strong> 0 conflit de merge majeur sur 12 mois, temps moyen de review &lt;24h, code coverage maintenu à 85% grâce aux reviews croisées, vélocité constante de 15 story points/sprint.
+                    </p>
+                  </router-link>
+                </li>
+
+                <li>
+                  <router-link to="/projets" class="project-link">
+                    <div class="project-header">
+                      <strong>🎓 ShopEZ - Projet Académique en Équipe</strong>
+                      <span class="project-tag">Académique</span>
+                    </div>
+                    <p class="project-description">
+                      <strong>Contexte :</strong> Projet universitaire en équipe de 4 développeurs (2 frontend Vue.js, 2 backend PHP/SQL), simulation d'environnement professionnel avec méthodologie Scrum sur 8 semaines.<br/>
+                      <strong>Méthodologie :</strong> Sprints de 2 semaines avec daily standups (5 min chaque matin), rétrospectives en fin de sprint pour amélioration continue, utilisation de Trello pour backlog et Kanban, distribution des tâches selon les compétences de chacun.<br/>
+                      <strong>Contribution personnelle :</strong> Scrum Master adjoint, animation de 4 rétrospectives, mise en place du workflow Git (GitFlow), formation de l'équipe aux pull requests et code reviews, résolution de 8 conflits de merge complexes.<br/>
+                      <strong>Résultats :</strong> Livraison complète des 3 sprints dans les délais, satisfaction équipe 9/10 lors de la rétrospective finale, tous les membres de l'équipe ont adopté les bonnes pratiques Git pour leurs projets suivants.
+                    </p>
+                  </router-link>
+                </li>
+
+                <li>
+                  <router-link to="/projets" class="project-link">
+                    <div class="project-header">
+                      <strong>🚀 Ylinkoo - Communication Client-Équipe</strong>
+                      <span class="project-tag">Production</span>
+                    </div>
+                    <p class="project-description">
+                      <strong>Contexte :</strong> Projet client externe nécessitant une communication professionnelle soutenue (14 réunions client sur 4 mois) et une capacité à traduire des besoins métier en spécifications techniques claires pour l'équipe de développement.<br/>
+                      <strong>Compétences déployées :</strong> Rédaction de comptes-rendus de réunion structurés (RACI matrix pour accountability), création de user stories détaillées avec critères d'acceptation mesurables, présentation de démos produit bi-hebdomadaires avec recueil de feedback structuré, gestion des demandes de changement via un process formalisé.<br/>
+                      <strong>Métriques :</strong> 212 points d'audit validés avec le client, 94% de taux d'acceptation des user stories au premier jet, 0 malentendu majeur sur les fonctionnalités livrées, délai moyen de réponse aux questions client &lt;4h.
+                    </p>
                   </router-link>
                 </li>
               </ul>
+
+              <h4>🔧 Outils collaboratifs maîtrisés :</h4>
               <div class="tech-badges">
-                <img src="https://cdn.simpleicons.org/git" alt="Git" title="Git" />
-                <img src="https://cdn.simpleicons.org/github" alt="GitHub" title="GitHub" />
-                <img src="https://cdn.simpleicons.org/slack" alt="Slack" title="Slack" />
+                <img src="https://cdn.simpleicons.org/git/F05032" alt="Git" title="Git - Versioning distribué" />
+                <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" title="GitHub - Code review & CI/CD" />
+                <img src="https://cdn.simpleicons.org/gitlab/FC6D26" alt="GitLab" title="GitLab - DevOps platform" />
+                <img src="https://cdn.simpleicons.org/slack/4A154B" alt="Slack" title="Slack - Communication asynchrone" />
+                <img src="https://cdn.simpleicons.org/trello/0052CC" alt="Trello" title="Trello - Kanban Agile" />
+                <img src="https://cdn.simpleicons.org/notion/000000" alt="Notion" title="Notion - Documentation collaborative" />
+                <img src="https://cdn.simpleicons.org/postman/FF6C37" alt="Postman" title="Postman - Tests API partagés" />
               </div>
             </div>
             <div class="bento-hover-effect"></div>
